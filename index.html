@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Solar System</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Squada One' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Asap Condensed' rel='stylesheet'>
-  <script type="module" crossorigin src="/assets/index-L3Tk7VhD.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-AYXhXdYR.css">
+  <script type="module" crossorigin src="/assets/index-DHZEZs8E.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C3MyCB9u.css">
 </head>
 <body>
-    <div class="container">    
-        <canvas id="canvas"></canvas>
-
-        <!-- <div class="object-box">
-            <h1 id="slct-object-header">Object</h1>
-            <p id="slct-object-body">Paragraph</p>
-        </div>     -->
+    <div class="container">
+        <canvas class="unselectable" id="canvas" width="800" height="800"></canvas>
+        <div id="planetText">
+            Nothing
+            <p>Each unit of space is equivalent to 1/10 AU</p>
+        </div>
     </div>
+    
+    <div class="controls">
+        <button class="button" id="reload">Reload Planet Data</button>
+        <button class="button" id="rst_time">Reset time</button>
+        <button class="button" id="pause_time">Pause</button>
+        <span class="timeController">
+            Each real second is
+            <input type="radio" name="example" id="t_1h"> 1 hour
+            <input type="radio" name="example" id="t_1d"> 1 day
+            <input type="radio" name="example" id="t_1y"> 1 year
 
-    <div id="error-box">
-        Error text messages will be desplayed here
+            <select class="hidden" name="planet" id="planet">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+            </select>
+
+            <input checked type="radio" name="example" id="t_custom">
+            <input type="range" min="-20" max="20" value="0" class="slider" id="timeSpeed">
+            <span id="timeSpeedText"></span>
+        </span>
+        <p>Current time is <span id="currentTime"></span> J2000 (Januray 1, 2000, 12:00 TT)</p>
     </div>
+    
+    <div id="error-box">Program errors will be shown here</div>
 
 </body>
 </html>

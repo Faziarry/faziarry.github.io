@@ -1,0 +1,190 @@
+[
+    {
+        "name": "Sun",
+        "type": "star",
+        "texture": "/res/sun.jpg",
+        "scale": 1.5
+    },
+    {
+        "name": "Mercury",
+        "scale": 0.4,
+        "orbit": {
+            "sma": 0.387098,
+            "ecc": 0.205630,
+            "raan": 48.33167,
+            "inclination": 7.004,
+            "periapsis": 77.45645,
+            "period": 88,
+            "mean_anomaly": 174.796
+        },
+        "rotation": {
+            "tilt": 0.034,
+            "duration": 58.646
+        },
+        "color": [0.3,0.3,0.3],
+        "texture": "/res/mercury.jpg",
+        "type": "planet"
+    },
+    {
+        "name": "Venus",
+        "scale": 0.9,
+        "orbit": {
+            "sma": 0.723,
+            "ecc": 0.007,
+            "raan": 76.68069,
+            "inclination": 3.39471,
+            "periapsis": 54.780,
+            "period": 225,
+            "mean_anomaly": 50.115
+        },
+        "rotation": {
+            "tilt": 177.36,
+            "duration": 243.0226
+        },
+        "color": [0.4,0.2,0.05],
+        "texture": "/res/venus.jpg",
+        "type": "planet"
+    },
+    {
+        "name": "Earth",
+        "scale": 1,
+        "orbit": {
+            "sma": 1,
+            "ecc": 0.017,
+            "raan": 348.73936,
+            "inclination": 7.155,
+            "periapsis": 114.20783,
+            "period": 365.2425,
+            "mean_anomaly": 358.617
+        },
+        "rotation": {
+            "tilt": 23.4392811,
+            "duration": 0.99726968
+        },
+        "color": [0,0,0.5],
+        "texture": "/res/earth.png",
+        "night_texture": "/res/earth_lights.png",
+        "type": "planet"
+    },
+    {
+        "name": "Mars",
+        "scale": 0.5,
+        "orbit": {
+            "sma": 1.524,
+            "ecc": 0.0934,
+            "raan": 49.57854,
+            "inclination": 5.65,
+            "periapsis": 286.5,
+            "period": 686.98,
+            "mean_anomaly": 19.412
+        },
+        "rotation": {
+            "tilt": 25.19,
+            "duration": 1.025957
+        },
+        "color": [1,0.05,0.05],
+        "texture": "/res/mars.jpg",
+        "type": "planet"
+    },
+    {
+        "name": "Jupiter",
+        "scale": 3,
+        "orbit": {
+            "sma": 5.2038,
+            "ecc": 0.0487,
+            "raan": 100.464,
+            "inclination": 6.09,
+            "periapsis": 273.867,
+            "period": 4332.59,
+            "mean_anomaly": 20.02
+        },
+        "rotation": {
+            "tilt": 3.13,
+            "duration": 0.41354167
+        },
+        "color": [0.60,0.28,0.12],
+        "texture": "/res/jupiter.jpg",
+        "type": "planet"
+    },
+    {
+        "name": "Saturn",
+        "scale": 2.5,
+        "orbit": {
+            "sma": 9.5826,
+            "ecc": 0.0565,
+            "raan": 113.665,
+            "inclination": 5.51,
+            "periapsis": 339.392,
+            "period": 10755.70,
+            "mean_anomaly": 317.02
+        },
+        "rotation": {
+            "tilt": 26.73,
+            "duration": 0.4458333
+        },
+        "color": [0.84,0.71,0.28],
+        "texture": "/res/saturn.jpg",
+        "type": "planet"
+    },
+    {
+        "name": "Uranus",
+        "scale": 2,
+        "orbit": {
+            "sma": 19.19126,
+            "ecc": 0.04717,
+            "raan": 74.006,
+            "inclination": 6.48,
+            "periapsis": 96.998857,
+            "period": 30688.5,
+            "mean_anomaly": 142.2386
+        },
+        "rotation": {
+            "tilt": 97.77,
+            "duration": 0.71833
+        },
+        "color": [0.43,0.75,0.77],
+        "texture": "/res/uranus.jpg",
+        "type": "planet"
+    },
+    {
+        "name": "Neptune",
+        "scale": 2,
+        "orbit": {
+            "sma": 30.07,
+            "ecc": 0.008678,
+            "raan": 131.783,
+            "inclination": 6.43,
+            "periapsis": 273.187,
+            "period": 60195,
+            "mean_anomaly": 259.883
+        },
+        "rotation": {
+            "tilt": 28.32,
+            "duration": 0.6713
+        },
+        "color": [0.12,0.26,0.61],
+        "texture": "/res/neptune.jpg",
+        "type": "planet"
+    },
+
+    {
+        "name": "test",
+        "scale": 0,
+        "orbit": {
+            "sma": 50,
+            "ecc": 0,
+            "raan": 0,
+            "inclination": 0,
+            "periapsis": 0,
+            "period": 365.2425,
+            "mean_anomaly": 0
+        },
+        "rotation": {
+            "tilt": 0,
+            "duration": 0
+        },
+        "color": [1,1,1],
+        "texture": "/res/",
+        "type": "planet"
+    }
+]
